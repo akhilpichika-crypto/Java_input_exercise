@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your favourite integer: ");
+        int integer = input.nextInt();
+        System.out.println(integer + " is my favourite integer too!");
+    }
+}
